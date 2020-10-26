@@ -1,0 +1,131 @@
+@import "../../fonts.css";
+
+.root {
+    -fx-font-family: 'Nunito', sans-serif;
+    -fx-font-size: 1.2em;
+    -fx-background-color: rgb(207,145,0);
+
+}
+.title {
+    -fx-background-color: rgb(55,87,61);
+}
+.main-label {
+    -fx-underline: true;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #6891ed;
+    -fx-background-radius: 8px;
+    -fx-border-color: rgba(0,0,0,0.20);
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-text-fill: black;
+    -fx-padding: 5px 25px;
+    -fx-opacity: 1;
+    -fx-cursor: hand;
+
+}
+.button:hover {
+    -fx-background-color: #6891ed;
+    -fx-text-fill: black;
+    -fx-padding: 5px 25px;
+    -fx-opacity: 1;
+    -fx-cursor: hand;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.7), 20,0,0,0);
+}
+
+.main-button:disabled {
+    -fx-opacity: 0;
+}
+
+.main-drop-down {
+    -fx-background-color: rgb(104, 145, 237);
+    -fx-background-radius: 8px;
+    -fx-border-color: rgba(0,0,0,0.20);
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.main-drop-down .list-view {
+    -fx-background-color: #6891ed;
+    -fx-background-radius: 8px;
+    -fx-border-color: rgba(0,0,0,0.20);
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+}
+
+.main-drop-down .list-view .list-cell {
+    -fx-background-color: rgb(104, 145, 237);
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.main-drop-down .list-view .list-cell:hover, .main-drop-down .list-view .list-cell:selected {
+    -fx-background-color: rgba(0, 0, 0, 0.15);
+    -fx-text-fill: black;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.7), 0,0,0,0);
+}
+
+.main-header-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 1.22em;
+    -fx-text-alignment: center;
+}
+
+.check-box > .box {
+    -fx-padding: 10px;
+    -fx-background-color: rgba(55,87,161,63);
+    -fx-background-radius: 40% 40% 8px 8px;
+ }
+
+.check-box > .box > .mark {
+    -fx-padding: 10px;
+
+}
+.check-box:selected .box {
+    -fx-background-color: rgb(104, 145, 237);
+    -fx-background-radius: 40% 40% 8px 8px;
+}
+.check-box:selected .mark {
+    -fx-background-color: white;
+}
+.check-box:disabled {
+    -fx-opacity: 1;
+    -fx-background-color: rgba(55,87,161,63);
+    -fx-background-radius: 40% 40% 8px 8px;
+}
+
+.conf-label {
+    -fx-font-weight: bold;
+}
+
+.ticketsDropDown {
+    -fx-background-color: rgb(104, 145, 237);
+    -fx-background-radius: 8px;
+    -fx-border-color: rgba(0,0,0,0.20);
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.ticketsDropDown .list-view {
+    -fx-background-color: #6891ed;
+    -fx-background-radius: 8px;
+    -fx-border-color: rgba(0,0,0,0.20);
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+}
+
+.ticketsDropDown .list-view .list-cell {
+    -fx-background-color: rgb(104, 145, 237);
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.ticketsDropDown .list-view .list-cell:hover, .ticketsDropDown .list-view .list-cell:selected {
+    -fx-background-color: rgba(0, 0, 0, 0.15);
+    -fx-text-fill: black;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.7), 0,0,0,0);
+}
